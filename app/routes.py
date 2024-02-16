@@ -1,6 +1,6 @@
 from flask import request, jsonify
 from app import app, db
-from app.models import Project, User, Dataset
+from app.model import Project, User, Dataset
 
 # POST = create
 # GET = retrieve
